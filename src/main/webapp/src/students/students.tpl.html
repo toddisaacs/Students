@@ -1,0 +1,16 @@
+<div ng-controller="StudentsCtrl as ctrl">
+    <button class="btn btn-success" ng-click="newStudent()" >New Student</button>
+    <table class="table table-striped" ng-show="students.length">
+        <thead>
+        <th>First Name</th>
+        <th>Last Name</th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="student in students">
+                <td ng-click="editStudent(student)">{{student.firstName}}</td>
+                <td ng-click="editStudent(student)">{{student.lastName}}</td>
+                <td><button class="btn btn-danger" ng-click="remove(student)">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>   
+</div>

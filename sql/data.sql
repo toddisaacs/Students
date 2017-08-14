@@ -1,0 +1,115 @@
+-- Insert Student data
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('John', NULL, 'Brown', '123 Palm St.', NULL, 'Indianapolis', 'IN', '46217');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Andrea', 'L', 'Smith', '1934 Oak Drive', NULL, 'Indianapolis', 'IN', '46227');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Eric', 'Michael', 'Johnson', '932 Redwood Terrace', 'Apt. D', 'Indianapolis', 'IN', '46217');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Judy', NULL, 'Walters', '2254 Maple St.', NULL, 'Carmel', 'IN', '46032');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Erica', 'Elaine', 'Johnson', '932 Redwood Terrace', 'Apt. D', 'Indianapolis', 'IN', '46217');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Erica', NULL, 'Johnson', '2242 Birch Lane', NULL, 'Greenfield', 'IN', '46140');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Thomas', 'W', 'Trask', '1165 Evergreen Drive', NULL, 'Indianapolis', 'IN', '46227');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('John', NULL, 'Smith', '1299 Palm Ct.', NULL, 'Carmel', 'IN', '46032');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Sally', 'Kay', 'Korsen', '327 Bradford Pear Way', 'Apt. 7', 'Indianapolis', 'IN', '46217');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Charles', NULL, 'Xavier', '7654 Apple Blvd.', NULL, 'Plainfield', 'IN', '46168');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('John', NULL, 'Walters', '6489 Orange St.', NULL, 'Carmel', 'IN', '46032');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('William', 'Thomas', 'Johnson', '848 Redwood Terrace', 'Apt. A', 'Indianapolis', 'IN', '46217');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Bradley', 'N', 'Thompson', '2242 Dogwood Dr.', NULL, 'Greenfield', 'IN', '46140');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Monica', NULL, 'Mathews', '4562 Walnut Way', NULL, 'Indianapolis', 'IN', '46217');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Timothy', 'Ryan', 'Jameson', '426 Elm St.', NULL, 'Indianapolis', 'IN', '46227');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Jerry', NULL, 'Brown', '456 Palm St.', NULL, 'Indianapolis', 'IN', '46217');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Alex', 'M', 'Sanders', '9264 Oakwood Lane', NULL, 'Indianapolis', 'IN', '46227');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Michelle', 'J', 'Johnson', '2232 Snapwood Drive', NULL, 'Indianapolis', 'IN', '46227');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Jeremiah', NULL, 'Clark', '4444 Pine Court', NULL, 'Carmel', 'IN', '46032');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Jonathon', 'L', 'Erickson', '62 Orange Terrace', 'Apt. F', 'Indianapolis', 'IN', '46217');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Samuel', 'Juan', 'Tores', '3822 Birch Lane', NULL, 'Greenfield', 'IN', '46140');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Oliver', NULL, 'Queen', '12596 Arrow Pkwy', NULL, 'Carmel', 'IN', '46032');
+INSERT INTO Student (FIRSTNAME, MIDDLENAME, LASTNAME, ADDRESS, ADDRESS2, CITY, STATECODE, ZIPCODE) VALUES ('Janice', NULL, 'Fuentes', '456 Silverwood Street', NULL, 'Carmel', 'IN', '46032');
+
+-- Insert Instructor data
+INSERT INTO Instructor (FIRSTNAME, MIDDLENAME, LASTNAME, TENURED) VALUES ('Seymour', NULL, 'Syntax', 1);
+INSERT INTO Instructor (FIRSTNAME, MIDDLENAME, LASTNAME, TENURED) VALUES ('Nancy', 'Marie', 'Jones', NULL);
+INSERT INTO Instructor (FIRSTNAME, MIDDLENAME, LASTNAME, TENURED) VALUES ('Elizabeth', 'Kay', 'Masters', 1);
+INSERT INTO Instructor (FIRSTNAME, MIDDLENAME, LASTNAME, TENURED) VALUES ('John', NULL, 'Mitchell', NULL);
+INSERT INTO Instructor (FIRSTNAME, MIDDLENAME, LASTNAME, TENURED) VALUES ('Joseph', 'P', 'Mullins', NULL);
+INSERT INTO Instructor (FIRSTNAME, MIDDLENAME, LASTNAME, TENURED) VALUES ('Rebecca', 'J', 'Fritz', 1);
+
+
+-- Insert Course data
+INSERT INTO Course (COURSECODE, SHORTDESC, SUMMARY) VALUES ('CIS101', 'Introduction to Computer Systems', 'This course has no prerequisites and serves as an introductory course for all new Computer Science, Technology and Business department students.');
+INSERT INTO Course (COURSECODE, SHORTDESC, SUMMARY) VALUES ('CIS102', 'HTML5 and JavaScript Fundamentals', 'This course has no prerequisites and serves as an introductory course for all new Computer Science and Technology department students.  Students will learn basic web development markup syntax and client-side scripting with JavaScript.');
+INSERT INTO Course (COURSECODE, SHORTDESC, SUMMARY) VALUES ('CIS103', 'Portfolio Planning', 'This course has no prerequisites and is required material for all students with concentrations in Computer Science, Technology and Project Management.  Students will learn to work with project stakeholders and end users to analyze solution requirements and participate in managing a development project throughout the entire software development life cycle process (SDLC).');
+INSERT INTO Course (COURSECODE, SHORTDESC, SUMMARY) VALUES ('CIS201', 'Introduction to Java Programming', 'CIS101 is a prerequisite for this course which focuses on teaching students introductory level programming and development concepts using the Java programming language.');
+INSERT INTO Course (COURSECODE, SHORTDESC, SUMMARY) VALUES ('CIS202', 'Database Design', 'CIS101 is a pre-requisite for this course which focuses on teaching students relational database management systems fundamentals and concepts.  Students will learn Structured Query Language features and database architecture rules and best practices.');	
+INSERT INTO Course (COURSECODE, SHORTDESC, SUMMARY) VALUES ('CIS301', 'Advanced Java Programming', 'CIS201 and CIS202 are prerequisites for this course which focuses on teaching students advanced level programming and development concepts using the Java programming language.  Students will learn object oriented design patterns, application development best practices and application level database interaction.');
+INSERT INTO Course (COURSECODE, SHORTDESC, SUMMARY) VALUES ('CIS302', 'Web Application Development', 'CIS102 and CIS202 are prerequisites for this course which focuses on teaching students web application programming and development concepts using HTML5 and JavaScript.  Students will learn to process data using a REST API from a JavaScript centric web application.');
+INSERT INTO Course (COURSECODE, SHORTDESC, SUMMARY) VALUES ('CIS303', 'COBOL Programming', 'CIS101 is a prerequisite for this course which teaches students COBOL for IBM platforms.');
+
+-- Insert CourseSession data
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (1, 2, '08/25/2014', '12/19/2014', 1);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (3, 4, '08/25/2014', '12/19/2014', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (1, 5, '08/25/2014', '12/19/2014', 1);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (1, 2, '01/12/2015', '05/08/2015', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (2, 3, '08/25/2014', '12/19/2014', 1);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (2, 3, '08/25/2014', '12/19/2014', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (2, 2, '08/25/2014', '12/19/2014', 1);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (2, 4, '01/12/2015', '05/08/2015', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (3, 5, '08/25/2014', '12/19/2014', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (3, 2, '08/25/2014', '12/19/2014', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (4, 1, '01/12/2015', '05/08/2015', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (4, 3, '01/12/2015', '05/08/2015', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (5, 1, '01/12/2015', '05/08/2015', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (5, 3, '01/12/2015', '05/08/2015', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (6, 1, '01/12/2015', '05/08/2015', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (6, 3, '01/12/2015', '05/08/2015', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (7, 1, '01/12/2015', '05/08/2015', 0);
+INSERT INTO CourseSession (COURSEID, INSTRUCTORID, STARTDATE, ENDDATE,ONLINE) VALUES (7, 3, '01/12/2015', '05/08/2015', 0);
+
+-- Insert CourseEnrollment
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (1, 1);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (2, 1);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (1, 2);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (2, 2);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (1, 3);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (2, 3);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (1, 4);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (2, 4);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (1, 20);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (2, 20);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (1, 21);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (2, 21);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (1, 22);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (2, 22);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (1, 23);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (2, 23);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (12, 1);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (8, 1);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (12, 2);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (8, 2);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (12, 3);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (8, 3);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (12, 4);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (8, 4);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (12, 20);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (8, 20);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (12, 21);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (8, 21);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (12, 22);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (8, 22);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (12, 23);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (8, 23);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (13, 22);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (13, 1);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (13, 2);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (13, 4);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (14, 3);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (14, 5);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (14, 6);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (14, 7);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (15, 10);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (15, 11);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (15, 12);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (15, 13);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (17, 8);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (17, 9);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (18, 10);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (18, 11);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (18, 12);
+INSERT INTO CourseEnrollment (COURSESESSIONID, STUDENTID) VALUES (18, 13);

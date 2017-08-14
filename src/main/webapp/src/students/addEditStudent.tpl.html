@@ -1,0 +1,86 @@
+<div ng-controller="AddEditStudentCtrl as ctrl">
+    <h1>Add Edit Student</h1>   
+    <form name="studentForm" role="form" ng-submit="save()" novalidate>
+        <div class="form-group" ng-class="{ 'has-error' : studentForm.firstNameInput.$invalid && !studentForm.firstNameInput.$pristine}">
+            <label for="firstNameInput">First Name</label>
+            <input type="text" 
+                   class="form-control"  
+                   ng-model="student.firstName" 
+                   ng-maxlength="50" 
+                   name="firstNameInput" 
+                   placeholder="First Name">
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : studentForm.middleNameInput.$invalid && !studentForm.middleNameInput.$pristine}">
+            <label for="middleNameInput">Middle Name or Initial</label>
+            <input type="text" 
+                   class="form-control" 
+                   ng-model="student.middleName" 
+                   ng-maxlength="50" 
+                   name="middleNameInput" 
+                   placeholder="Middle Name">
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : studentForm.lastNameInput.$invalid && !studentForm.lastNameInput.$pristine}">
+            <label for="lastNameInput">Last Name</label>
+            <input type="text" 
+                   class="form-control" 
+                   ng-model="student.lastName" 
+                   ng-maxlength="50" 
+                   required  
+                   name="lastNameInput" 
+                   placeholder="Last Name">
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : studentForm.addressInput.$invalid && !studentForm.addressInput.$pristine}">
+            <label for="addressInput">Address</label>
+            <input type="text" 
+                   class="form-control" 
+                   ng-model="student.address" 
+                   ng-maxlength="1000" 
+                   required 
+                   name="addressInput" 
+                   placeholder="Address">
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : studentForm.address2Input.$invalid && !studentForm.address2Input.$pristine}">
+            <label for="address2Input">Address 2</label>
+            <input type="text" 
+                   class="form-control" 
+                   ng-model="student.address2" 
+                   ng-maxlength="100"  
+                   name="address2Input" 
+                   placeholder="Address 2">
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : studentForm.cityInput.$invalid && !studentForm.cityInput.$pristine}">
+            <label for="cityInput">City</label>
+            <input type="text" 
+                   class="form-control" 
+                   ng-model="student.city" 
+                   ng-maxlength="100" 
+                   required 
+                   name="cityInput" 
+                   placeholder="City">
+        </div>
+        <div class="form-group"  ng-class="{ 'has-error' : studentForm.stateInput.$invalid && !studentForm.stateInput.$pristine}" >
+            <label for="stateInput">State</label>
+            <input name="stateInput" 
+                   type="text" 
+                   class="form-control" 
+                   ng-model="student.statecode" 
+                   ng-minlength="2" 
+                   ng-maxlength="2"  
+                   required  
+                   placeholder="State Code">
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : studentForm.zipInput.$invalid && !studentForm.zipInput.$pristine}">
+            <label for="zipInput">Zip Code</label>
+            <input type="text" 
+                   class="form-control" 
+                   ng-model="student.zipcode" 
+                   ng-maxlength="7" 
+                   required 
+                   name="zipInput" 
+                   placeholder="Zip Code">
+        </div>
+        <button type="submit" class="btn btn-success" ng-disabled="studentForm.$invalid">Submit</button>
+    </form>
+</div>
+
+

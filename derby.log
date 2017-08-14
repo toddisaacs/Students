@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Aug 15 06:55:40 EDT 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0147-d94f-03e8-00000e5b7718 
+on database directory /Users/teisaacs/NetBeansProjects/Students/testDB with class loader sun.misc.Launcher$AppClassLoader@58e862c 
+Loaded from file:/Users/teisaacs/.m2/repository/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_51-b13
+user.dir=/Users/teisaacs/NetBeansProjects/Students
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.9.4
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
